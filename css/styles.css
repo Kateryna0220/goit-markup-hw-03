@@ -24,8 +24,7 @@
     margin-bottom: 0;
 }
 .header {
-    border: solid #ECECEC;
-    border-width: 0px, 0px, 1px, 0px;
+border-bottom: 1px solid #ECECEC;
 }
 .container {
     width: 1200px;
@@ -233,7 +232,7 @@ padding: 0;
     border: 1px solid #EEEEEE;
 }
 .content .item{
-width: calc((100%-60px) / 3);
+width: calc((100% - 60px) / 3);
 }
 
 .content .item:nth-child(3n){
@@ -246,6 +245,7 @@ width: calc((100%-60px) / 3);
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    gap: 30px;
 }
 .desk {
     font-weight: 400;
@@ -448,9 +448,7 @@ padding-top: 60px;
 padding-bottom: 60px;
 
 }
-.subject {
-    padding: 0px, 0px, 60px, 0px;
-}
+
 .subject .link{
     text-decoration: none;
 }
@@ -461,9 +459,9 @@ color: var(--accent-color);
 .link.address {
 color:  var(--third-text-color);
 margin-bottom: 9px;
+}
 .footer-subject{
     margin-bottom: 9px;
-}
 }
 .pointer {
     cursor: pointer;
