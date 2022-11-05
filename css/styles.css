@@ -31,6 +31,8 @@
     width: 1200px;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
 }
 
 .list {
@@ -121,8 +123,8 @@
     align-items: center;
     background: var(--background-color);
     text-align: center;
-    padding-top: 213px;
-    padding-bottom: 187px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     }
     .hero-title {
@@ -131,6 +133,7 @@
         left: 452px;
         top: 280px;
 margin: 0;
+margin-bottom: 30px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -327,6 +330,7 @@ width: calc((100%-60px) / 3);
         letter-spacing: 0.03em;
         display: block;
         padding: 0;
+        margin-bottom: 50px;
 }
 
 .button-nav.filter{
@@ -337,9 +341,6 @@ align-items: center;
 }
 .filter {
 display: inline-flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 34px;
 }
 .button-nav .filter+.filter {
     margin-left: 8px;
@@ -394,11 +395,6 @@ margin-bottom: 20px;
 }
 .section.portfolio {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
-    margin-top: 0;
-    margin-bottom: 0;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -420,6 +416,7 @@ margin-bottom: 20px;
 .block .item {
 display: flex;
 margin-left: auto;
+padding: 0;
 }
 .item .photo+.photo {
     margin-left: 30px;
@@ -436,8 +433,6 @@ margin-left: auto;
     color: var(--third-text-color);
     display: inline-block;
     margin-bottom: 20px;
-    padding-left: 40px;
-
 }
 .container .portfolio {
     margin-top: 0;
@@ -466,7 +461,9 @@ color: var(--accent-color);
 .link.address {
 color:  var(--third-text-color);
 margin-bottom: 9px;
-
+.footer-subject{
+    margin-bottom: 9px;
+}
 }
 .pointer {
     cursor: pointer;
