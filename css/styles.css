@@ -151,9 +151,6 @@ margin-bottom: 30px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.section.about {
-    padding-top: 0;
-}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -332,7 +329,9 @@ width: calc((100% - 60px) / 3);
         padding: 0;
         margin-bottom: 50px;
 }
-
+.section.about {
+    padding-top: 0;
+}
 .button-nav.filter{
 display: flex;
 width: 575px;
