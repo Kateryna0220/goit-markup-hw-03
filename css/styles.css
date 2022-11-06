@@ -356,7 +356,9 @@ color: var(--primery-text-color);
 margin-top: 0;
 margin-bottom: 10px;
 }
-
+.subject {
+    padding: 0;
+}
 .content .caption{
     margin-bottom: 4px;
 }
